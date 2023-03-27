@@ -9,14 +9,13 @@ import ProjectPage from "./ProjectPage.vue";
 
 const routes = [
   {
-    path: "/vue/",
-    redirect: "/vue/dashboard",
+    path: "/vue",
     component: AppLayout,
     children: [
-      { path: "/vue/dashboard", name: "Dashboard", component: DashboardPage },
-      { path: "/vue/team", name: "Team", component: TeamPage },
-      { path: "/vue/calender", name: "Calender", component: CalenderPage },
-      { path: "/vue/project", name: "Project", component: ProjectPage },
+      { path: "/dashboard", name: "Dashboard", component: DashboardPage },
+      { path: "/team", name: "Team", component: TeamPage },
+      { path: "/calender", name: "Calender", component: CalenderPage },
+      { path: "/project", name: "Project", component: ProjectPage },
     ],
   },
 ];
