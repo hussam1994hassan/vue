@@ -9,7 +9,7 @@ import ProjectPage from "./ProjectPage.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/vue/",
     redirect: "/dashboard",
     component: AppLayout,
     children: [
