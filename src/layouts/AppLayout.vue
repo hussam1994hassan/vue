@@ -1,6 +1,6 @@
 <template>
     <HeaderApp />
-    <main class="bg-slate-50 min-auto min-h-[calc(100vh-128px)] w-full p-5">
+    <main class="bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-auto min-h-[calc(100vh-128px)] w-full p-5">
         <router-view />
     </main>
     <FooterApp />
