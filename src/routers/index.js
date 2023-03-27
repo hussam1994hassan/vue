@@ -12,6 +12,7 @@ const routes = [
     path: "/vue",
     component: AppLayout,
     children: [
+      { path: "/", name: "Index", component: DashboardPage },
       { path: "/dashboard", name: "Dashboard", component: DashboardPage },
       { path: "/team", name: "Team", component: TeamPage },
       { path: "/calender", name: "Calender", component: CalenderPage },
